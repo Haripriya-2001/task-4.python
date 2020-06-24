@@ -1,0 +1,28 @@
+#####Print the Positive Numbers from the list#####
+
+Input:
+list1=[]
+n=int(input("Enter a value: "))
+print("Enter the elements: ")
+for i in range(n):
+    x=int(input())
+    list1.append(x)
+print(list1)   
+if(list1<0):
+    print("Positive numbers are: ",(list1))
+else:
+    print("Negative numbers are: ",(list1))
+
+Output:
+Enter a value: 5
+Enter the elements: 
+12
+-7
+5
+64
+-14
+[12, -7, 5, 64, -14]
+Traceback (most recent call last):
+  File "C:\Users\MURUGAN\Documents\haripriya\dev c++\python\task-4(print positive numbers).py", line 10, in <module>
+    if(list1<0):
+TypeError: '<' not supported between instances of 'list' and 'int'
